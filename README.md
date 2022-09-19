@@ -1,7 +1,34 @@
 # i310d
 
-The following data set is licensed in the public domain.
+The goal of your project
+Links to any relevant API documentation
+The license of your data and any source data
+A data type and description for each attribute in your data
+Any known issues or potential issues, such as sources of bias in collection
 
 Project Objective:
-The primary goal of this analysis is to determine how much the US has contricuted to CO2 emissions in comparision to other countries and find out which time period CO2 emissions were at their highest in the US.  
-Upon initial analysis of the data, it appears that the information provided may be unreliable as Wikipedia is listed as a secondary source for the information. Wikipedia is widely know to be an untrustworthy site to gather information because it is a user-gernerated source. However, the data set lists that it primarily retrieved data from the official World Health Organization site, which is globally recognized. The data file appears to be very redundant, as CO2 emissions remain static for several years at a ttime, but after analyzing the data further and charting the data in a more human-readable way, it is evident that these redundant data points reveal trends in CO2 emissions. 
+The primary goal of this analysis was to determine which US state has showcased the most incidents of 'police brutality'. For the purpose of this particular study, a case of police brutality is classified as a situation where the vicitm was unarmed, considered unthreatening, was not making any attempts to escape, and did not exhibit signs of mental illness, but was still killed during the incident. 
+
+The data collected was found at the site linked below: 
+https://www.kaggle.com/datasets/ramjasmaurya/us-police-shootings-from-20152022
+The following data set is licensed in the public domain.
+
+name:                       name of the victim 
+
+armed:                      indicates whether or not the victim was armed or not
+
+gender:                     gender of victim
+
+race:                       race of victim
+
+city:                       city in the US where the incident occurred
+
+state:                      state in the US where the incident occurred
+
+signs_of_mental_illness:    indicates if the vicitm showed shigns of mental illness at the time of the incident
+
+threat_level:               level of threat of the victimk as determined by the police
+
+flee:                       method of which the victim used to escape
+
+Potential issues arise with this data set as the author has not listed a specific, retraceable source that I am able to access and review. This makes trusting the data more difficult, but nonetheless, the data traces to back to 2015 and has been updated monthly ever since. Additionally, under the 'threat_level' attribute, one of the data points recorded was 'other' which has ambiguous meaning and may be interpreted differently. The assumption I chose to make was that other indicated no threat or minimal threat as there are only three data points: other, attack, and undetermined.
