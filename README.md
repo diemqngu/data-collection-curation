@@ -13,22 +13,24 @@ The data collected was found at the site linked below:
 https://www.kaggle.com/datasets/ramjasmaurya/us-police-shootings-from-20152022
 The following data set is licensed in the public domain.
 
-name:                       name of the victim 
+column_a (integer):         number of the entry
 
-armed:                      indicates whether or not the victim was armed or not
+name (string):                       name of the victim 
 
-gender:                     gender of victim
+armed (string):                      indicates whether or not the victim was armed or not
 
-race:                       race of victim
+gender (string):                     gender of victim
 
-city:                       city in the US where the incident occurred
+race (string):                       race of victim
 
-state:                      state in the US where the incident occurred
+city (string):                       city in the US where the incident occurred
 
-signs_of_mental_illness:    indicates if the vicitm showed shigns of mental illness at the time of the incident
+state (string):                      state in the US where the incident occurred
 
-threat_level:               level of threat of the victimk as determined by the police
+signs_of_mental_illness (boolean):    indicates if the victim showed signs of mental illness at the time of the incident
 
-flee:                       method of which the victim used to escape
+threat_level (string):               level of threat of the victim as determined by the police
+
+flee (string):                       method of which the victim used to escape
 
 Potential issues arise with this data set as the author has not listed a specific, retraceable source that I am able to access and review. This makes trusting the data more difficult, but nonetheless, the data traces to back to 2015 and has been updated monthly ever since. Additionally, under the 'threat_level' attribute, one of the data points recorded was 'other' which has ambiguous meaning and may be interpreted differently. The assumption I chose to make was that other indicated no threat or minimal threat as there are only three data points: other, attack, and undetermined.
